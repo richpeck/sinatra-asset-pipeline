@@ -14,6 +14,8 @@ Gem::Specification.new do |gem|
 
   gem.files = Dir["README.md", "lib/**/*.rb"]
   gem.add_dependency 'rake'
+  gem.add_dependency 'sass', '~> 3.5'
+  gem.add_dependency 'coffee-script', '~> 2.4'
   gem.add_dependency 'sprockets', '~> 3.7'
   gem.add_dependency 'sprockets-helpers', '~> 1.2'
   gem.add_development_dependency 'rspec', '~> 3.7'
